@@ -41,3 +41,8 @@ models:
     example:
       materialized: table
       table: demo_table_created
+
+    com:
+      sigmoid:
+        raw:
+          materialized: view
